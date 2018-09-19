@@ -2,7 +2,7 @@
   "name": "course_scraper",
   "version": "1.0.0",
   "description": "A search application to help you find courses on Treehouse",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
