@@ -6,16 +6,16 @@ const Schema = mongoose.Schema;
 
 const CourseSchema = new Schema({
   title: {
-    type: String,
-    required: true
+    type: String
   },
   description: {
-    type: String,
-    required: true
+    type: String
   },
   link: {
-    type: String,
-    required: true
+    type: String
+  },
+  topic: {
+    type: String
   }
 });
 

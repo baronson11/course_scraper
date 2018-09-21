@@ -3,6 +3,7 @@ const express = require('express');
 const handlebars = require('express-handlebars');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const db = require("./models/Course");
 
 // Web Scraping Tools -------------------------------------
 const cheerio = require('cheerio');
