@@ -84,8 +84,9 @@ h1, h3 {
 }
 
 #searchResults div {
-  border: solid 1px #b1b1b1;
+  box-shadow: 1px 1px 1px 1px #b1b1b1;
   padding: 5px;
+  margin: 2px;
 }
 
 #searchResults h4 {
