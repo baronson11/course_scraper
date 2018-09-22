@@ -21,15 +21,15 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch(err => console.log(err));
 
   function populate(data) {
-    for (let i = 0; i < data.length; i++) {
+    data.forEach(data => {
       let card = document.createElement('div');
       card.setAttribute("id", "card");
       card.innerHTML = `
-        <h4>${data[i].title}</h4>
-        <a href="${data[i].link}">${data[i].link}</a>
-        <p>${data[i].description}</p>`;
+        <h4>${data.title}</h4>
+        <a href="${data.link}">${data.link}</a>
+        <p>${data.description}</p>`;
       searchResults.appendChild(card);
-    }
+    });
 
   }
 
